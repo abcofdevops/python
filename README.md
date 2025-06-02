@@ -1,2 +1,2 @@
-# python
-Python 101 [ABC of Python]
+# Python 101 [ABC of Python]
+
