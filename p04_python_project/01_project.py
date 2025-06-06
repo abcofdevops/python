@@ -23,10 +23,12 @@ response = requests.request(
    auth=auth
 )
 
+#Output First Project
 output= json.loads(response.text)
 name = output[0]["name"]
 print(name)
 
+#Output all Projects
 print("\nOutput1")
 names = [item["name"] for item in output]
 print(names)
